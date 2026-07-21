@@ -501,6 +501,25 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 0;
 }
 
+/* ── How I'm paid closer line ───────────────────────────────────────────── */
+.paid-closer {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--light-grid);
+  font-size: 0.9rem;
+  color: var(--body-text);
+  font-style: italic;
+  max-width: 600px;
+}
+
+/* ── CTA secondary line ──────────────────────────────────────────────────── */
+.cta-secondary {
+  margin-top: 14px;
+  font-size: 0.875rem;
+  color: var(--gray);   /* theme.py GRAY = #5a6578 — quiet secondary tone */
+  max-width: 540px;
+}
+
 /* ── Mobile ─────────────────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   .container { padding: 0 18px; }
